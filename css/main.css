@@ -15,7 +15,7 @@ body{
 	background:#ffffff;
 	font-size: 14px;
 	font-family: 'Source Sans Pro';
-	height: 100%;
+
 }
 
 .content {
@@ -60,7 +60,7 @@ header nav {
 	}
 
 /* Media Queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
 	header nav{
 		float: left;
@@ -241,29 +241,26 @@ figure {
 /*Footer*/
 
 footer{
-		position: absolute;
-		bottom: 0px; 
+		/*position: absolute;
+		bottom: 0px; */
 		width: 100%;
-		min-height: 60px;
+		min-height: 150px;
 		background-color: #4e4c4c;
 		color: #f1f1f1;
 		font-size: 1em;
 	}
 
-	@media only screen and (max-width: 320px) {
-		footer{
-			position: relative;
-		}
-	}
-
+	
 	footer h3{
 		text-transform: uppercase;
 		text-align: left;
 	}
+
 	footer p{
 		text-align: left;
 		font-size: 0.7em;
 	}
+
 	footer .list{
 		width: 70%;
 	    margin: 0;
